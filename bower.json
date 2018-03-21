@@ -1,0 +1,17 @@
+{
+    "name": "adapt-hepler",
+    "repository": "git://github.com/michas-yoo/adapt-helper",
+    "framework": "^2.0.0",
+    "version": "0.0.1",
+    "homepage": "https://github.com/michas-yoo/adapt-helper",
+    "issues": "https://github.com/michas-yoo/adapt-helper/issues/",
+    "displayName": "Helper",
+    "extension": "helper",
+    "description": "An extension that adds a popup-window with helpful information",
+    "main": "/js/helper.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "license": "GPLv3"
+}

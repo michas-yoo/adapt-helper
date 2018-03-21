@@ -1,0 +1,11 @@
+// add to component in component.json
+
+"_hint": [
+    {
+        "title": "Adapt Helper",
+        "body": "An extension that adds a popup window with helpful information."
+    },
+    {
+        "body": "Infromation goes here"
+    }
+]

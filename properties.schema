@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "http://jsonschema.net",
+  "required": false,
+  "globals": {
+    "closeButtonText": {
+      "type": "string",
+      "required": true,
+      "default": "close helper button",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "required": true,
+      "properties": {
+        "config": {
+          "type": "object"
+        },
+        "course": {
+          "type": "object"
+        },
+        "contentobject": {
+          "type": "object"
+        },
+        "article": {
+          "type": "object"
+        },
+        "block": {
+          "type": "object"
+        },
+        "component": {
+          "type": "object",
+          "properties": {
+            "_helper": {
+              "type": "array",
+              "required": false,
+              "title": "Helper elements",
+              "items": {
+                "type": "object",
+                "required": true,
+                "title": "Items",
+                "properties": {
+                  "body": {
+                    "type": "string",
+                    "required": true,
+                    "title": "Body text of the popup",
+                    "inputType": "Text",
+                    "validators": []
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
